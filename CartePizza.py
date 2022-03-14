@@ -24,4 +24,7 @@ class CartePizza:
         self.pizza.append(pizza)
 
 
+    def delete(self,pizza):
+        self.pizza.remove(pizza)
+
 
