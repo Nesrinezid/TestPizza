@@ -28,3 +28,7 @@ class CartePizza:
         self.pizza.remove(pizza)
 
 
+    def modify(self,pizza):
+        self.pizza.update(pizza)
+
+
